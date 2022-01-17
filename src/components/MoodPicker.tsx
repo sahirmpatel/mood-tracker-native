@@ -9,7 +9,7 @@ const moodOptions: MoodOptionType[] = [
 import React from 'react';
 import {useState} from 'react';
 import {View, Text, StyleSheet, Pressable} from 'react-native';
-import {MoodOptionType, MoodOptionWithTimestamp} from '../types';
+import {MoodOptionType} from '../types';
 import {theme} from '../themes';
 import {useCallback} from 'react';
 type MoodPickerProps = {
